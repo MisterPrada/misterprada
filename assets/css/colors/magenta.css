@@ -1,0 +1,79 @@
+/* =================================================================== */
+/* magenta:#dd5081
+====================================================================== */
+
+
+.cursor-inner ,
+.cursor-inner.cursor-hover ,
+.social__tooltip ,
+.social__tooltip::after ,
+.animated-bar ,
+.clickbtn ,
+.homecolor-box ,
+.resume-section .resume-item .item-arrow::before ,
+.service-line::after,.style-switch-wrapper .purchse-btn  {
+    background-color: #dd5081;
+}
+
+.navigation ul li.active a .icon ,
+.animated-text h3 ,
+.fixed-block .social-icons a:hover ,
+.section-title .common-title span ,
+.about-content .personal-infotitle span ,
+.about-content .personal-title span ,
+.about-content .about-you .value a ,
+.about-content .social-icons li a:hover  ,
+.about-subtitle span ,
+.testimonial-item .quote ,
+.funfacts-box h3 ,
+.progress-line span::after ,
+.resume-section .resume-item .item-title ,
+.service-line ,
+.testimonial-item .rating ,
+.owl-dot ,
+.funfacts-section .funfacts-box h3::after ,
+.single-post:hover .post-content .content-title h5>a ,
+.blog-section .single-post .post-content .content-date ,
+.contact-section .contact-info .list-info .info-icon i ,
+.contact-section .contact-info .list-info .info-details .info-value ,
+.contact-section .contact-info .list-info .info-details .info-value a ,
+.contact-section .contact-info .list-info .info-details .info-value a:focus,
+.contact-section .contact-info .list-info .info-details .info-value a:hover ,
+.blog-content .blog-header span i ,
+.blog-content .blog-body .title ,
+.blog-content .blog-body h4 ,
+.blog-content .content-title {
+    color: #dd5081;
+}
+
+.clickbtn ,
+.cursor-outer,.style-switch-wrapper .purchse-btn  {
+    border: 2px solid #dd5081;
+}
+
+.resume-section .resume-item {
+    border-left: 2px solid #dd5081;
+}
+
+.testimonial-item ,
+.funfacts-section .funfacts-box{
+    border: 1px solid #dd5081;
+}
+
+.resume-section .resume-item .item-arrow::after{
+    border-left-color: #dd5081;
+}
+
+.owl-dot.active span{
+    background-color: #dd5081;
+    border-color: #dd5081;
+}
+
+.owl-dot span{
+    border: 3px solid #dd5081;
+}
+
+.bar .progress-line span ,
+.switch, .mix .info .post {
+    background: #dd5081;
+}
