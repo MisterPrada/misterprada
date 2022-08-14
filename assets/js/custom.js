@@ -135,7 +135,7 @@ $(document).ready(function () {
     },
   });
 });
-var mixer = mixitup(".portfolio-list");
+//var mixer = mixitup(".portfolio-list");
 //------------------    add all to same gallery------------------   //
 $(".gallery a").attr("data-fancybox", "mygallery");
 // assign captions and title from alt-attributes of images:
@@ -191,8 +191,8 @@ $(".funfacts-box").each(function () {
 //------------------    Counter Js------------------   //
 // ------------------   Downlode CV ------------------   //
 
-let btn = document.getElementById("b1");
-btn.onclick = mainDL;
+//let btn = document.getElementById("b1");
+//btn.onclick = mainDL;
 
 function mainDL() {
   const {
