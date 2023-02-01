@@ -5,7 +5,7 @@
 
 <img alt="Night Coding" src="https://raw.githubusercontent.com/AVS1508/AVS1508/master/assets/Night-Coding.gif" align="right"/>
 
-💡 &nbsp;I'm really fond of developing entertaining stuff for online games on PC.\
+💡 &nbsp; I'm really fond of developing entertaining stuff for online games on PC.\
 🎓 &nbsp;In addition, I do reverse engineering of applications for Windows.\
 💬 &nbsp;Feel free to reach out for advice or just for some fun discussion.\
 ✉️ &nbsp;Click on one of the links down below to connect me! I'll respond ASAP.
