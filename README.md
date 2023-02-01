@@ -5,10 +5,10 @@
 
 <img alt="Night Coding" src="https://raw.githubusercontent.com/AVS1508/AVS1508/master/assets/Night-Coding.gif" align="right"/>
 
-💡 &nbsp; I like to develop various interesting things for online games on PC.\
-🎓 &nbsp;And also do reverse engineering of applications for Windows.\
-💬 &nbsp;Feel free to reach out for advice or just for some interesting discussion.\
-✉️ &nbsp;You can write me on links below! I'll try to respond as soon as I can.
+💡 &nbsp;I'm really fond of developing entertaining stuff for online games on PC.\
+🎓 &nbsp;In addition, I do reverse engineering of applications for Windows.\
+💬 &nbsp;Feel free to reach out for advice or just for some fun discussion.\
+✉️ &nbsp;Click on one of the links down below to connect me! I'll respond ASAP.
 
 <p align="center">
 <a href="https://discordapp.com/users/240546940901785610"><img src="https://img.shields.io/badge/-@MisterPrada6666-5562ea?style=flat&logo=Discord&logoColor=white"/></a>
