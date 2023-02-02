@@ -19,6 +19,8 @@
 
 ### 🛠 &nbsp;Tech Experience Stack
 
+#### &nbsp; ✨ Reverse engineering
+
 [![C](https://img.shields.io/badge/-C-05122A?style=flat&logo=C&logoColor=A8B9CC)](#)&nbsp;
 [![C++](https://img.shields.io/badge/-C++-05122A?style=flat&logo=C%2B%2B&logoColor=00599C)](#)&nbsp;
 [![Asm](https://img.shields.io/badge/-Asm-05122A?style=flat&logo=Intel&logoColor=00599C)](#)&nbsp;
@@ -32,4 +34,11 @@
 [![x64 dbg](https://img.shields.io/badge/-x64%20dbg%20-05122A?style=flat)](#)&nbsp;
 [![Cheat Engine](https://img.shields.io/badge/-Cheat%20Engine%20-05122A?style=flat)](#)&nbsp;
 
-</p>
+#### &nbsp; 🌌 Web
+
+[![PHP](https://img.shields.io/badge/-PHP-05122A?style=flat&logo=php&logoColor=A8B9CC)](#)&nbsp;
+[![js](https://img.shields.io/badge/-Js-05122A?style=flat&logo=javascript&logoColor=A8B9CC)](#)&nbsp;
+[![webxr](https://img.shields.io/badge/-WebXr-05122A?style=flat&logo=WebXR&logoColor=A8B9CC)](#)&nbsp;
+
+
+
