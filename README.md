@@ -13,10 +13,11 @@
 <p align="center">
 <a href="https://discordapp.com/users/240546940901785610"><img src="https://img.shields.io/badge/-@MisterPrada6666-5562ea?style=flat&logo=Discord&logoColor=white"/></a>
 <a href="https://t.me/misterprada"><img src="https://img.shields.io/badge/-@misterprada-1769FF?style=flat&logo=Telegram&logoColor=white"/></a>
+<a href="https://www.instagram.com/mister666prada/"><img src="https://img.shields.io/badge/-@mister666prada-orange?style=flat&logo=Instagram&logoColor=white"/></a>
 </p>
 
 
-### 🛠 &nbsp;Tech Stack
+### 🛠 &nbsp;Tech Experience Stack
 
 [![C](https://img.shields.io/badge/-C-05122A?style=flat&logo=C&logoColor=A8B9CC)](#)&nbsp;
 [![C++](https://img.shields.io/badge/-C++-05122A?style=flat&logo=C%2B%2B&logoColor=00599C)](#)&nbsp;
