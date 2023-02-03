@@ -5,6 +5,8 @@
 
 <img alt="Night Coding" src="https://raw.githubusercontent.com/AVS1508/AVS1508/master/assets/Night-Coding.gif" align="right"/>
 
+
+🌠 &nbsp; Work as Tech Lead Software Engineer (<a href="https://egorovagency.com/">EgorovAgency</a>)\
 💡 &nbsp; I'm really fond of developing entertaining stuff for online games on PC.\
 🎓 &nbsp;In addition, I do reverse engineering of applications for Windows.\
 💬 &nbsp;Feel free to reach out for advice or just for some fun discussion.\
@@ -54,7 +56,7 @@
 [![ZapWorks](https://img.shields.io/badge/-ZapWorks-05122A?style=flat&logo=ZapWorks&logoColor=A8B9CC)](#)&nbsp;
 [![SarkAR](https://img.shields.io/badge/-SparkAr-05122A?style=flat&logo=Sparkar&logoColor=A8B9CC)](#)&nbsp;
 [![PlayCanvas](https://img.shields.io/badge/-PlayCanvas-05122A?style=flat&logo=PLayCanvas&logoColor=A8B9CC)](#)&nbsp;
-
+[![Payment Integrations](https://img.shields.io/badge/-Payment_Integrations-05122A?style=flat&logo=Payment_Integrations&logoColor=A8B9CC)](#)&nbsp;
 
 #### &nbsp; 💾 Databases
 
@@ -80,6 +82,11 @@
 [![Laravel Voyager](https://img.shields.io/badge/-Laravel_Voyager-05122A?style=flat&logo=Voyager&logoColor=A8B9CC)](#)&nbsp;
 [![Laravel Nova](https://img.shields.io/badge/-Laravel_Nova-05122A?style=flat&logo=laravelNova&logoColor=A8B9CC)](#)&nbsp;
 [![ModX](https://img.shields.io/badge/-ModX-05122A?style=flat&logo=ModX&logoColor=A8B9CC)](#)&nbsp;
+[![DialogFlow](https://img.shields.io/badge/-DialogFlow-05122A?style=flat&logo=DialogFlow&logoColor=A8B9CC)](#)&nbsp;
+[![Telegram Api](https://img.shields.io/badge/-Telegram_API_(bots)-05122A?style=flat&logo=Telegram&logoColor=A8B9CC)](#)&nbsp;
+[![Viber Api](https://img.shields.io/badge/-Viber_API_(bots)-05122A?style=flat&logo=Viber&logoColor=A8B9CC)](#)&nbsp;
+[![Binance Api+Sockets](https://img.shields.io/badge/-Binance_API+Sockets-05122A?style=flat&logo=Binance&logoColor=A8B9CC)](#)&nbsp;
+
 
 #### &nbsp; 🚀 JavaScript Libraries & Frameworks
 
@@ -93,6 +100,10 @@
 [![Vue](https://img.shields.io/badge/-Vue-05122A?style=flat&logo=vue.js&logoColor=A8B9CC)](#)&nbsp;
 [![Nuxt](https://img.shields.io/badge/-Nuxt-05122A?style=flat&logo=Nuxt.js&logoColor=A8B9CC)](#)&nbsp;
 [![ThreeJs](https://img.shields.io/badge/-ThreeJs-05122A?style=flat&logo=three.js&logoColor=A8B9CC)](#)&nbsp;
+[![AFrame](https://img.shields.io/badge/-AFrame-05122A?style=flat&logo=aframe&logoColor=A8B9CC)](#)&nbsp;
+[![Locomotive Scroll](https://img.shields.io/badge/-Locomotive_Scroll-05122A?style=flat&logo=Locomotivescroll&logoColor=A8B9CC)](#)&nbsp;
+[![TadingView](https://img.shields.io/badge/-TadingView-05122A?style=flat&logo=TadingView&logoColor=A8B9CC)](#)&nbsp;
+[![Parsley](https://img.shields.io/badge/-Parsley-05122A?style=flat&logo=Parsley&logoColor=A8B9CC)](#)&nbsp;
 
 #### &nbsp; 💡 DevOps
 
