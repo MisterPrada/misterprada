@@ -104,6 +104,7 @@
 [![Locomotive Scroll](https://img.shields.io/badge/-Locomotive_Scroll-05122A?style=flat&logo=Locomotivescroll&logoColor=A8B9CC)](#)&nbsp;
 [![TadingView](https://img.shields.io/badge/-TadingView-05122A?style=flat&logo=TadingView&logoColor=A8B9CC)](#)&nbsp;
 [![Parsley](https://img.shields.io/badge/-Parsley-05122A?style=flat&logo=Parsley&logoColor=A8B9CC)](#)&nbsp;
+[![Chart.js](https://img.shields.io/badge/-Chart.js-05122A?style=flat&logo=Chart.js&logoColor=A8B9CC)](#)&nbsp;
 
 #### &nbsp; 💡 DevOps
 
