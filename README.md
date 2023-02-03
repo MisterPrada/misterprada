@@ -57,6 +57,7 @@
 [![SarkAR](https://img.shields.io/badge/-SparkAr-05122A?style=flat&logo=Sparkar&logoColor=A8B9CC)](#)&nbsp;
 [![PlayCanvas](https://img.shields.io/badge/-PlayCanvas-05122A?style=flat&logo=PLayCanvas&logoColor=A8B9CC)](#)&nbsp;
 [![Payment Integrations](https://img.shields.io/badge/-Payment_Integrations-05122A?style=flat&logo=Payment_Integrations&logoColor=A8B9CC)](#)&nbsp;
+[![WebAssembly](https://img.shields.io/badge/-WebAssembly-05122A?style=flat&logo=WebAssembly&logoColor=A8B9CC)](#)&nbsp;
 
 #### &nbsp; 💾 Databases
 
