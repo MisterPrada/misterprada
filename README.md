@@ -18,8 +18,15 @@
 <a href="https://www.instagram.com/mister666prada/"><img src="https://img.shields.io/badge/-@mister666prada-orange?style=flat&logo=Instagram&logoColor=white"/></a>
 </p>
 
-
 ### 🛠 &nbsp;Tech Experience Stack
+
+#### &nbsp; 🧠 AI
+[![HuggingFace](https://img.shields.io/badge/-HuggingFace-05122A?style=flat&logo=transformers&logoColor=A8B9CC)](#)&nbsp;
+[![HuggingFace](https://img.shields.io/badge/-TensorFlow-05122A?style=flat&logo=tensorflow&logoColor=A8B9CC)](#)&nbsp;
+[![Transformers](https://img.shields.io/badge/-Transformers-05122A?style=flat&logo=transformers&logoColor=A8B9CC)](#)&nbsp;
+[![PyTorch](https://img.shields.io/badge/-PyTorch-05122A?style=flat&logo=PyTorch&logoColor=A8B9CC)](#)&nbsp;
+[![ml5](https://img.shields.io/badge/-ml5.js-05122A?style=flat&logo=ml5.js&logoColor=A8B9CC)](#)&nbsp;
+
 
 #### &nbsp; ✨ Reverse engineering
 
@@ -121,4 +128,10 @@
 [![CentOs](https://img.shields.io/badge/-CentOs-05122A?style=flat&logo=Centos&logoColor=A8B9CC)](#)&nbsp;
 [![Debian](https://img.shields.io/badge/-Debian-05122A?style=flat&logo=Debian&logoColor=A8B9CC)](#)&nbsp;
 
+<p align="center">
+🏆 &nbsp;Achivements &nbsp;
+</p>
 
+<p align="center">
+<a href="https://www.ratatype.com/C5998527RU"><img src="https://img.shields.io/badge/-Keyboard Speed-05122A?style=flat&logo=keyboardspeed&logoColor=white"/></a>
+</p>
