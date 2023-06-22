@@ -1,4 +1,5 @@
 uniform float uTime;
+uniform float uOpacity;
 uniform vec2 uResolution;
 
 varying vec2 vUv;
@@ -79,6 +80,5 @@ void main()
 
     //gl_FragColor.a = step(0.19, gl_FragColor.r);
 
-    gl_FragColor.a = smoothstep(0.3, 0.7, mix(0.0, 2.0, gl_FragColor.r));
-
+    gl_FragColor.a = smoothstep(0.3, 0.7, mix(0.0, 2.0, gl_FragColor.r * uOpacity));
 }

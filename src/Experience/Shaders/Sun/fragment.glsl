@@ -114,6 +114,7 @@ void main()
     gl_FragColor.a = alpha;
 
 
+    #include <encodings_fragment>
 
     //gl_FragColor.a		= 1.0;
 }

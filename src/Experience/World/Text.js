@@ -15,6 +15,10 @@ export default class Text {
 
         this.timeline = this.experience.timeline;
 
+        this.parameters = {
+            opacity: 0.0
+        }
+
         this.experience.resources.items.sunColorTexture.encoding = THREE.sRGBEncoding
         //this.experience.resources.items.sunColorTexture.repeat.set(1.5, 1.5)
         this.experience.resources.items.sunColorTexture.wrapS = THREE.RepeatWrapping
@@ -32,25 +36,24 @@ export default class Text {
             uniforms:
                 {
                     uTime: { value: 0 },
+                    uOpacity: { value: this.parameters.opacity },
                     uResolution: { value: new THREE.Vector2(128, 128) },
                 },
             vertexShader: textVertexShader,
             fragmentShader: textFragmentShader
         } );
+
         this.text = new THREE.Mesh( this.geometry, this.material );
-        this.text.position.y = -20;
+        this.text.position.y = -2;
         this.scene.add(this.text);
     }
 
     animateTextPosition() {
-        this.timeline.add(
-            gsap.to(this.text.position, {
-                duration: 6,
-                y: -2,
-                ease: "power1.inOut",
-            }),
-            "start" // начало этой анимации совпадает с началом timeline
-        )
+        this.timeline.to(this.material.uniforms.uOpacity, {
+            duration: 3,
+            value: 1,
+            ease: "power1.inOut",
+        });
     }
 
     update() {

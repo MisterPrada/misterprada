@@ -48,7 +48,7 @@ export default class Camera
     animateCameraPosition() {
         this.timeline.add(
             gsap.to(this.instance.position, {
-                duration: 6,
+                duration: 8,
                 delay: 0.5,
                 x: 0.05,
                 y: 1.5,

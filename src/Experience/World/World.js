@@ -20,7 +20,7 @@ export default class World
         this.resources.on('ready', () =>
         {
             // Setup
-            //this.sun = new Sun()
+            this.sun = new Sun()
             this.text = new Text()
             this.galaxy = new Galaxy()
             this.environment = new Environment()
@@ -33,6 +33,7 @@ export default class World
     animationPipeline() {
         this.camera.animateCameraPosition();
         this.text.animateTextPosition();
+        this.sun.setScaleAnimation()
     }
 
     update()
