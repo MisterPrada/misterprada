@@ -43,6 +43,10 @@ export default class Experience
         this.renderer = new Renderer()
         this.world = new World()
 
+        /**
+         * Default code to prevent double click to select text
+         */
+        this.setDefaultCode();
 
         // Resize event
         this.sizes.on('resize', () =>
@@ -70,6 +74,12 @@ export default class Experience
         this.world.update()
         this.renderer.update()
         this.timeline.time(this.time.elapsed);
+    }
+
+    setDefaultCode(){
+        document.ondblclick = function (e) {
+            e.preventDefault()
+        }
     }
 
     destroy()
