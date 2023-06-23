@@ -71,6 +71,8 @@ export default class Environment
         //this.environmentMap.texture.colorSpace = THREE.SRGBColorSpace
         //this.environmentMap.texture.encoding = THREE.sRGBEncoding
         this.environmentMap.texture.generateMipmaps = false
+        this.environmentMap.texture.minFilter = THREE.LinearFilter
+        this.environmentMap.texture.magFilter = THREE.LinearFilter
 
         this.scene.environment = this.environmentMap.texture
         this.scene.background = this.environmentMap.texture
