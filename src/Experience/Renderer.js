@@ -20,6 +20,7 @@ export default class Renderer
             canvas: this.canvas,
             //antialias: true
         })
+
         // this.instance.physicallyCorrectLights = true
         //this.instance.outputEncoding = THREE.sRGBEncoding
         this.instance.outputColorSpace = THREE.SRGBColorSpace

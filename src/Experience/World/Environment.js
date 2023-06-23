@@ -76,6 +76,7 @@ export default class Environment
 
         this.scene.environment = this.environmentMap.texture
         this.scene.background = this.environmentMap.texture
+        this.scene.backgroundBlurriness = 0.04
 
         this.environmentMap.updateMaterials = () =>
         {
