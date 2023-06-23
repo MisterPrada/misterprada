@@ -2,6 +2,7 @@ import * as THREE from 'three'
 import Experience from '../Experience.js'
 import galaxyVertexShader from '../Shaders/Galaxy/vertex.glsl'
 import galaxyFragmentShader from '../Shaders/Galaxy/fragment.glsl'
+import Time from '../Utils/Time.js'
 export default class Galaxy {
     constructor() {
         this.experience = new Experience()

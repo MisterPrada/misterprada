@@ -14,6 +14,7 @@ export default class Resources extends EventEmitter
         this.items = {}
         this.toLoad = this.sources.length
         this.loaded = 0
+        this.loadedAll = false
 
         this.setLoaders()
         this.startLoading()
@@ -77,6 +78,7 @@ export default class Resources extends EventEmitter
 
         if(this.sources.length === 0) {
             setTimeout(() => {
+                this.loadedAll = true
                 this.trigger('ready')
             });
         }
@@ -90,6 +92,7 @@ export default class Resources extends EventEmitter
 
         if(this.loaded === this.toLoad)
         {
+            this.loadedAll = true
             this.trigger('ready')
         }
     }
