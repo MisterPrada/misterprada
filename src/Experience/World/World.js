@@ -15,18 +15,30 @@ export default class World
         this.camera = this.experience.camera;
         this.scene = this.experience.scene
         this.resources = this.experience.resources
+        this.html = this.experience.html
 
         // Wait for resources
         this.resources.on('ready', () =>
         {
-            // Setup
-            this.sun = new Sun()
-            this.text = new Text()
-            this.galaxy = new Galaxy()
-            this.environment = new Environment()
+            setTimeout(() => {
+                this.experience.time.start = Date.now()
+                this.experience.time.elapsed = 0
+                // Setup
+                this.sun = new Sun()
+                this.text = new Text()
+                this.galaxy = new Galaxy()
+                this.environment = new Environment()
 
-            // Animation timeline
-            this.animationPipeline();
+                // Remove preloader
+                this.html.preloader.classList.add("preloaded");
+                setTimeout(() => {
+                    this.html.preloader.remove();
+                }, 2000);
+
+                // Animation timeline
+                this.animationPipeline();
+            }, 100);
+
         })
     }
 

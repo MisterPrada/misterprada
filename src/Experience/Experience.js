@@ -27,10 +27,16 @@ export default class Experience
         // Global access
         window.experience = this
 
+        // Html Elements
+        this.html = {}
+        this.html.preloader = document.getElementById("preloader")
+
+        // Resources
+        this.resources = new Resources(sources)
+
         // Options
         THREE.ColorManagement.enabled = false
         this.canvas = _canvas
-
 
         // Setup
         this.timeline = gsap.timeline({
@@ -40,10 +46,10 @@ export default class Experience
         this.sizes = new Sizes()
         this.time = new Time()
         this.scene = new THREE.Scene()
-        this.resources = new Resources(sources)
         this.camera = new Camera()
         this.renderer = new Renderer()
         this.world = new World()
+
 
         /**
          * Default code to prevent double click to select text
