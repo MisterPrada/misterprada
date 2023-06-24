@@ -22,7 +22,7 @@ export default class Galaxy {
         this.parameters.randomness = 0.5
         this.parameters.stdev = 0.8
         this.parameters.randomnessPower = 1.0
-        this.parameters.insideColor = '#ff6030'
+        this.parameters.insideColor = '#ff6030' //d97f63
         this.parameters.outsideColor = '#1b3984'
 
         // Galaxy Line Parameters

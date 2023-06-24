@@ -19,7 +19,8 @@ export default class Text {
             opacity: 0.0
         }
 
-        this.experience.resources.items.sunColorTexture.encoding = THREE.sRGBEncoding
+        //this.experience.resources.items.sunColorTexture.encoding = THREE.sRGBEncoding
+        this.experience.resources.items.sunColorTexture.colorSpace = THREE.SRGBColorSpace
         //this.experience.resources.items.sunColorTexture.repeat.set(1.5, 1.5)
         this.experience.resources.items.sunColorTexture.wrapS = THREE.RepeatWrapping
         this.experience.resources.items.sunColorTexture.wrapT = THREE.RepeatWrapping

@@ -28,7 +28,9 @@ export default class Experience
         window.experience = this
 
         // Options
+        THREE.ColorManagement.enabled = false
         this.canvas = _canvas
+
 
         // Setup
         this.timeline = gsap.timeline({

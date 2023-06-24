@@ -23,6 +23,7 @@ export default class Renderer
 
         // this.instance.physicallyCorrectLights = true
         //this.instance.outputEncoding = THREE.sRGBEncoding
+        //this.instance.outputColorSpace = THREE.LinearSRGBColorSpace
         this.instance.outputColorSpace = THREE.SRGBColorSpace
         //this.instance.toneMapping = THREE.CineonToneMapping
         //this.instance.toneMappingExposure = 0.75

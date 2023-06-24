@@ -20,7 +20,7 @@ export default class Camera
     setInstance()
     {
         this.instance = new THREE.PerspectiveCamera(55, this.sizes.width / this.sizes.height, 0.1, 100)
-        const defaultCameraPosition = new THREE.Vector3(5, -2, -3);
+        const defaultCameraPosition = new THREE.Vector3(1, -2, -3);
         this.instance.position.copy(defaultCameraPosition)
         this.scene.add(this.instance)
     }
@@ -49,10 +49,10 @@ export default class Camera
         this.timeline.add(
             gsap.to(this.instance.position, {
                 duration: 8,
-                delay: 0.5,
-                x: 0.05,
+                delay: 0.6,
+                x: 6.0,
                 y: 1.5,
-                z: 5.0,
+                z: -0.05,
                 ease: "power1.inOut",
             }),
             "start"

@@ -65,18 +65,31 @@ export default class Environment
 
     setEnvironmentMap()
     {
+        /**
+         * Environment Map parameters
+         */
         this.environmentMap = {}
         this.environmentMap.intensity = 0.4
+
+        /**
+         * Texture settings
+         */
         this.environmentMap.texture = this.resources.items.environmentMapTexture
-        //this.environmentMap.texture.colorSpace = THREE.SRGBColorSpace
+        this.environmentMap.texture.colorSpace = THREE.SRGBColorSpace
+        this.environmentMap.texture.mapping = THREE.EquirectangularReflectionMapping
         //this.environmentMap.texture.encoding = THREE.sRGBEncoding
         this.environmentMap.texture.generateMipmaps = false
         this.environmentMap.texture.minFilter = THREE.LinearFilter
         this.environmentMap.texture.magFilter = THREE.LinearFilter
 
-        this.scene.environment = this.environmentMap.texture
+        /**
+         * Scene settings
+         */
+        //this.scene.environment = this.environmentMap.texture
         this.scene.background = this.environmentMap.texture
         this.scene.backgroundBlurriness = 0.04
+        //this.scene.backgroundIntensity = 6.1
+        //this.scene.envMapIntensity = 9.1
 
         this.environmentMap.updateMaterials = () =>
         {
