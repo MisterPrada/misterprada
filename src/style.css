@@ -42,7 +42,7 @@ body
     width: 50%;
     height: 100%;
     z-index: -1;
-    background-color: #fff;
+    background-color: #000;
     -webkit-transition: all 0.3s ease 0s;
     -o-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
@@ -75,7 +75,7 @@ body
     -ms-transform: translateY(-50%);
     -o-transform: translateY(-50%);
     transform: translateY(-50%);
-    background-color: #000;
+    background-color: #fff;
     -webkit-animation: lineheight 1000ms ease-in-out 0s forwards;
     -o-animation: lineheight 1000ms ease-in-out 0s forwards;
     animation: lineheight 1000ms ease-in-out 0s forwards;
