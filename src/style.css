@@ -56,7 +56,7 @@ body
 #preloader .loader_line {
     margin: auto;
     width: 1px;
-    height: 250px;
+    height: 75%;
     position: relative;
     overflow: hidden;
     -webkit-transition: all 0.8s ease 0s;
