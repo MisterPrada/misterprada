@@ -26,7 +26,22 @@ void main()
         modelPosition.x = 0.0;
         modelPosition.z = 0.0;
 
-        modelPosition.y = (tan(angle) * distanceToCenter);
+
+
+        if (mod(aPositionIndex, 2.0) == 0.0) {
+            modelPosition.y = (tan(angle) * distanceToCenter);
+
+            if (modelPosition.y < 0.0) {
+                modelPosition.y = 0.0;
+            }
+        }else{
+            modelPosition.y = (-tan(angle) * distanceToCenter);
+
+            if (modelPosition.y > 0.0) {
+                modelPosition.y = 0.0;
+            }
+        }
+
 
         // Randomness
         modelPosition.xyz -= aRandomness;

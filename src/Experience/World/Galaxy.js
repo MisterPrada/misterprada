@@ -27,7 +27,7 @@ export default class Galaxy {
 
         // Galaxy Line Parameters
         this.parameters.lineEach = 5.0
-        this.parameters.lineRandomness = 0.2
+        this.parameters.lineRandomness = 0.066
         this.parameters.lineStdev = 0.8
         this.parameters.lineRandomnessPower = 1.0
 
