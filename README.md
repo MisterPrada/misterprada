@@ -134,6 +134,5 @@
 
 <p align="center">
   <a href="https://www.ratatype.com/C5998527RU"><img src="https://img.shields.io/badge/-Keyboard Speed-05122A?style=flat&logo=keyboardspeed&logoColor=white"/></a>
-
   <a href="https://threejs-journey.com/certificate/view/30019"><img src="https://img.shields.io/badge/-Three.js_Journey-05122A?style=flat&logo=three.js&logoColor=white"/></a>
 </p>
