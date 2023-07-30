@@ -78,10 +78,10 @@ export default class Experience
 
     update()
     {
+        this.timeline.time(this.time.elapsed);
         this.camera.update()
         this.world.update()
         this.renderer.update()
-        this.timeline.time(this.time.elapsed);
     }
 
     setDefaultCode(){
