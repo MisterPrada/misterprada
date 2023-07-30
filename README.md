@@ -138,3 +138,16 @@
   <a href="https://www.ratatype.com/C5998527RU"><img src="https://img.shields.io/badge/-Keyboard Speed-05122A?style=flat&logo=keyboardspeed&logoColor=white"/></a>
   <a href="https://threejs-journey.com/certificate/view/30019"><img src="https://img.shields.io/badge/-Three.js_Journey-05122A?style=flat&logo=three.js&logoColor=white"/></a>
 </p>
+
+<p align="center">
+🔱 &nbsp;Pet Projects &nbsp;
+</p>
+
+| <img alt="Itachi" src="https://github.com/MisterPrada/misterprada/assets/8146111/445f5d11-b672-46f5-a0dd-7635b4787efc"  /> | <img alt="Itachi" src="https://github.com/MisterPrada/misterprada/assets/8146111/445f5d11-b672-46f5-a0dd-7635b4787efc"  /> | <img alt="Itachi" src="https://github.com/MisterPrada/misterprada/assets/8146111/445f5d11-b672-46f5-a0dd-7635b4787efc"  /> |
+|:-----:|:---------:|:------:|
+| <a href="https://itachi.misterprada.com">Itachi Live</a> |  <a href="https://itachi.misterprada.com">Itachi Live</a>    | <a href="https://itachi.misterprada.com">Itachi Live</a> |
+
+
+
+
+
