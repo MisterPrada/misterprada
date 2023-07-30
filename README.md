@@ -3,7 +3,8 @@
 
 ### 👨🏻‍💻 &nbsp;About Me
 
-<img alt="Night Coding" src="https://raw.githubusercontent.com/AVS1508/AVS1508/master/assets/Night-Coding.gif" align="right"/>
+
+<img width="40%" alt="Night Coding" src="https://github.com/MisterPrada/misterprada/assets/8146111/91fec7b5-937a-43cc-8a90-4f468f157bc5" align="right"/>
 
 
 🌠&nbsp; Work as a Tech Lead Software Engineer ([EgorovAgency](https://egorovagency.com/))\
@@ -108,6 +109,7 @@
 [![Vue](https://img.shields.io/badge/-Vue-05122A?style=flat&logo=vue.js&logoColor=A8B9CC)](#)&nbsp;
 [![Nuxt](https://img.shields.io/badge/-Nuxt-05122A?style=flat&logo=Nuxt.js&logoColor=A8B9CC)](#)&nbsp;
 [![ThreeJs](https://img.shields.io/badge/-ThreeJs-05122A?style=flat&logo=three.js&logoColor=A8B9CC)](#)&nbsp;
+[![R3F](https://img.shields.io/badge/-R3F-05122A?style=flat&logo=react-three-fiber&logoColor=A8B9CC)](#)&nbsp;
 [![AFrame](https://img.shields.io/badge/-AFrame-05122A?style=flat&logo=aframe&logoColor=A8B9CC)](#)&nbsp;
 [![Locomotive Scroll](https://img.shields.io/badge/-Locomotive_Scroll-05122A?style=flat&logo=Locomotivescroll&logoColor=A8B9CC)](#)&nbsp;
 [![TadingView](https://img.shields.io/badge/-TadingView-05122A?style=flat&logo=TadingView&logoColor=A8B9CC)](#)&nbsp;
@@ -133,5 +135,6 @@
 </p>
 
 <p align="center">
-<a href="https://www.ratatype.com/C5998527RU"><img src="https://img.shields.io/badge/-Keyboard Speed-05122A?style=flat&logo=keyboardspeed&logoColor=white"/></a>
+  <a href="https://www.ratatype.com/C5998527RU"><img src="https://img.shields.io/badge/-Keyboard Speed-05122A?style=flat&logo=keyboardspeed&logoColor=white"/></a>
+  <a href="https://threejs-journey.com/certificate/view/30019"><img src="https://img.shields.io/badge/-Three.js_Journey-05122A?style=flat&logo=three.js&logoColor=white"/></a>
 </p>
