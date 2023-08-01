@@ -148,8 +148,14 @@
 | <a href="https://portal.misterprada.com">Portal Live</a> |  <a href="https://misterprada.com">Galaxy Live</a>    | <a href="https://itachi.misterprada.com">Itachi Live</a> |
 
 
+<div align="center">
+
 | <img alt="Sound Orb" src="https://github.com/MisterPrada/misterprada/assets/8146111/68821637-ccd9-480f-bb76-5834c3a8586d"  /> |
 |:-----:|
 | <a href="https://portal.misterprada.com">Orb Live</a> |
+
+</div>
+
+
 
 
