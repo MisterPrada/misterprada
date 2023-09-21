@@ -14,7 +14,7 @@
 ✉️ &nbsp;Click on one of the links down below to connect me! I'll respond ASAP.
 
 <p align="center">
-<a href="https://discordapp.com/users/240546940901785610"><img src="https://img.shields.io/badge/-@MisterPrada6666-5562ea?style=flat&logo=Discord&logoColor=white"/></a>
+<a href="https://discordapp.com/users/240546940901785610"><img src="https://img.shields.io/badge/-@misterprada-5562ea?style=flat&logo=Discord&logoColor=white"/></a>
 <a href="https://t.me/misterprada"><img src="https://img.shields.io/badge/-@misterprada-1769FF?style=flat&logo=Telegram&logoColor=white"/></a>
 <a href="https://www.instagram.com/mister666prada/"><img src="https://img.shields.io/badge/-@mister666prada-orange?style=flat&logo=Instagram&logoColor=white"/></a>
 </p>
@@ -138,3 +138,22 @@
   <a href="https://www.ratatype.com/C5998527RU"><img src="https://img.shields.io/badge/-Keyboard Speed-05122A?style=flat&logo=keyboardspeed&logoColor=white"/></a>
   <a href="https://threejs-journey.com/certificate/view/30019"><img src="https://img.shields.io/badge/-Three.js_Journey-05122A?style=flat&logo=three.js&logoColor=white"/></a>
 </p>
+
+<p align="center">
+🔱 &nbsp;Pet Projects &nbsp;
+</p>
+
+| <img alt="Portal" src="https://github.com/MisterPrada/misterprada/assets/8146111/eb445650-c662-412f-8cf5-662b76c27057"  /> | <img alt="Galaxy" src="https://github.com/MisterPrada/misterprada/assets/8146111/64cf718c-e1ae-44a6-bd6c-69ca2b55ac11"  /> | <img alt="Itachi" src="https://github.com/MisterPrada/misterprada/assets/8146111/445f5d11-b672-46f5-a0dd-7635b4787efc"  /> |
+|:-----:|:---------:|:------:|
+| <a href="https://portal.misterprada.com">Portal Live</a> |  <a href="https://misterprada.com">Galaxy Live</a>    | <a href="https://itachi.misterprada.com">Itachi Live</a> |
+
+
+<div align="center">
+
+  | <img alt="Predator" width="77%" src="https://github.com/MisterPrada/misterprada/assets/8146111/e4021b6c-28e3-4f21-8227-1f9617a17945"  /> | <img alt="Sound Orb" src="https://github.com/MisterPrada/misterprada/assets/8146111/68821637-ccd9-480f-bb76-5834c3a8586d"  /> | <img alt="Strokes" src="https://github.com/MisterPrada/misterprada/assets/8146111/e0c31048-9ef4-4523-bf08-3966cb8001d0"  /> |
+  |:-----:|:------:|:-----:|
+  | <a href="https://predator.misterprada.com">Predator Live</a> | <a href="https://orb.misterprada.com">Orb Live</a> | <a href="https://github.com/MisterPrada/strokes">Strokes Code</a> |
+
+</div>
+
+
