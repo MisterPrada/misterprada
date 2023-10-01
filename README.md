@@ -102,7 +102,6 @@
 [![React](https://img.shields.io/badge/-React-05122A?style=flat&logo=React&logoColor=A8B9CC)](#)&nbsp;
 [![Lodash](https://img.shields.io/badge/-Lodash-05122A?style=flat&logo=Lodash&logoColor=A8B9CC)](#)&nbsp;
 [![JQuery](https://img.shields.io/badge/-JQuery-05122A?style=flat&logo=jquery&logoColor=A8B9CC)](#)&nbsp;
-[![JQuery](https://img.shields.io/badge/-JQuery-05122A?style=flat&logo=jquery&logoColor=A8B9CC)](#)&nbsp;
 [![gulp](https://img.shields.io/badge/-gulp-05122A?style=flat&logo=gulp&logoColor=A8B9CC)](#)&nbsp;
 [![WebPack](https://img.shields.io/badge/-WebPack-05122A?style=flat&logo=webpack&logoColor=A8B9CC)](#)&nbsp;
 [![Vite](https://img.shields.io/badge/-Vite-05122A?style=flat&logo=Vite&logoColor=A8B9CC)](#)&nbsp;
