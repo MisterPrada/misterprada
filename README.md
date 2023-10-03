@@ -151,7 +151,7 @@
 
   | <img alt="Predator" width="77%" src="https://github.com/MisterPrada/misterprada/assets/8146111/e4021b6c-28e3-4f21-8227-1f9617a17945"  /> | <img alt="Sound Orb" src="https://github.com/MisterPrada/misterprada/assets/8146111/68821637-ccd9-480f-bb76-5834c3a8586d"  /> | <img alt="Strokes" src="https://github.com/MisterPrada/misterprada/assets/8146111/e0c31048-9ef4-4523-bf08-3966cb8001d0"  /> |
   |:-----:|:------:|:-----:|
-  | <a href="https://predator.misterprada.com">Predator Live</a> | <a href="https://orb.misterprada.com">Orb Live</a> | <a href="https://github.com/MisterPrada/strokes">Strokes Code</a> |
+  | <a href="https://predator.misterprada.com">Predator Live</a> | <a href="https://orb.misterprada.com">Orb Live</a> | <a href="https://strokes.misterprada.com">Strokes Live</a> |
 
 </div>
 
