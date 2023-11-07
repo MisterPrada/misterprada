@@ -16,24 +16,18 @@ export default class Text {
         this.timeline = this.experience.timeline;
 
         this.parameters = {
-            opacity: 0.0
+            opacity: 1.0
         }
-
-        //this.experience.resources.items.sunColorTexture.encoding = THREE.sRGBEncoding
-        this.experience.resources.items.sunColorTexture.colorSpace = THREE.SRGBColorSpace
-        //this.experience.resources.items.sunColorTexture.repeat.set(1.5, 1.5)
-        this.experience.resources.items.sunColorTexture.wrapS = THREE.RepeatWrapping
-        this.experience.resources.items.sunColorTexture.wrapT = THREE.RepeatWrapping
 
         this.geometry = new THREE.PlaneGeometry( 5, 5, 128, 128 );
         this.material = new THREE.ShaderMaterial( {
             //wireframe: true,
             //side: THREE.DoubleSide,
             depthWrite: false,
-            depthTest: true,
+            depthTest: false,
             //vertexColors: true,
             //transparent: true,
-            blending: THREE.AdditiveBlending ,
+            blending: THREE.AdditiveBlending,
             uniforms:
                 {
                     uTime: { value: 0 },
@@ -45,8 +39,15 @@ export default class Text {
         } );
 
         this.text = new THREE.Mesh( this.geometry, this.material );
-        this.text.position.y = -2;
+        this.text.scale.copy(new THREE.Vector3(.6, .6, .6))
+        this.text.renderOrder = 6;
+        this.text.position.x = 11.49;
+        this.text.position.y = 5.6;
+        this.text.position.z = 4.12;
+
         this.scene.add(this.text);
+
+        this.setDebug()
     }
 
     animateTextPosition() {
@@ -55,6 +56,25 @@ export default class Text {
             value: 1,
             ease: "power1.inOut",
         });
+    }
+
+    resize() {
+
+    }
+
+    setDebug() {
+        // Debug
+        if(this.debug.active)
+        {
+            this.debugFolder = this.debug.ui.addFolder('Text')
+            this.debugFolder.add(this.text.position, 'x').min(-100).max(100).step(0.01).name('position x')
+            this.debugFolder.add(this.text.position, 'y').min(-100).max(100).step(0.01).name('position y')
+            this.debugFolder.add(this.text.position, 'z').min(-100).max(100).step(0.01).name('position z')
+
+            this.debugFolder.add(this.text.scale, 'x').min(-100).max(100).step(0.01).name('scale x')
+            this.debugFolder.add(this.text.scale, 'y').min(-100).max(100).step(0.01).name('scale y')
+            this.debugFolder.add(this.text.scale, 'z').min(-100).max(100).step(0.01).name('scale z')
+        }
     }
 
     update() {

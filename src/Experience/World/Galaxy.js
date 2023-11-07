@@ -17,13 +17,19 @@ export default class Galaxy {
         this.parameters = {}
         this.parameters.count = 200000
         this.parameters.size = 0.005
-        this.parameters.radius = 4
+        this.parameters.radius = 52
         this.parameters.branches = 3
         this.parameters.randomness = 0.5
         this.parameters.stdev = 0.8
         this.parameters.randomnessPower = 1.0
-        this.parameters.insideColor = '#ff6030' //d97f63
+        // this.parameters.insideColor = '#2f2f2f' //d97f63
+        // this.parameters.outsideColor = '#ffffff'
+        this.parameters.insideColor = '#d97f63' //d97f63
         this.parameters.outsideColor = '#1b3984'
+        this.parameters.uPositionX = 15.0
+        this.parameters.uPositionY = -1.0
+        this.parameters.uPositionZ = -24.0
+        this.parameters.uSize = 250
 
         // Galaxy Line Parameters
         this.parameters.lineEach = 5.0
@@ -161,12 +167,16 @@ export default class Galaxy {
         this.material = new THREE.ShaderMaterial({
             depthWrite: false,
             //depthTest: true,
+            transparent: false,
             blending: THREE.AdditiveBlending,
             vertexColors: true,
             uniforms:
                 {
                     uTime: { value: 0 },
-                    uSize: { value: 30 * this.renderer.getPixelRatio() },
+                    uSize: { value: this.parameters.uSize * this.renderer.getPixelRatio() },
+                    uPositionX: { value: this.parameters.uPositionX },
+                    uPositionY: { value: this.parameters.uPositionY },
+                    uPositionZ: { value: this.parameters.uPositionZ },
                     uLineEach: { value: this.parameters.lineEach },
                 },
             vertexShader: galaxyVertexShader,
@@ -177,7 +187,13 @@ export default class Galaxy {
          * Points
          */
         this.points = new THREE.Points(this.geometry, this.material)
+        this.points.renderOrder = 2
+
         this.scene.add(this.points)
+    }
+
+    resize() {
+        this.material.uniforms.uSize.value = this.parameters.uSize * this.renderer.getPixelRatio()
     }
 
     setDebug() {
@@ -189,7 +205,7 @@ export default class Galaxy {
             this.debugFolder.add(this.parameters, 'count').min(100).max(1000000).step(100).onFinishChange(() => {
                 this.generateGalaxy()
             })
-            this.debugFolder.add(this.parameters, 'radius').min(0.01).max(20).step(0.01).onFinishChange(() => {
+            this.debugFolder.add(this.parameters, 'radius').min(0.01).max(80).step(0.01).onFinishChange(() => {
                 this.generateGalaxy()
             })
             this.debugFolder.add(this.parameters, 'branches').min(2).max(20).step(1).onFinishChange(() => {
@@ -224,10 +240,22 @@ export default class Galaxy {
             this.debugFolder.addColor(this.parameters, 'outsideColor').onFinishChange(() => {
                 this.generateGalaxy()
             })
+
+            this.debugFolder.add(this.parameters, 'uPositionX').min(-40.0).max(40.0).step(0.001).onFinishChange(() => {
+                this.material.uniforms.uPositionX.value = this.parameters.uPositionX
+            })
+
+            this.debugFolder.add(this.parameters, 'uPositionY').min(-40.0).max(40.0).step(0.001).onFinishChange(() => {
+                this.material.uniforms.uPositionY.value = this.parameters.uPositionY
+            })
+
+            this.debugFolder.add(this.parameters, 'uPositionZ').min(-40.0).max(40.0).step(0.001).onFinishChange(() => {
+                this.material.uniforms.uPositionZ.value = this.parameters.uPositionZ
+            })
         }
     }
 
     update() {
-        this.material.uniforms.uTime.value = this.time.elapsed * 0.1
+        this.material.uniforms.uTime.value = 50 + this.time.elapsed
     }
 }

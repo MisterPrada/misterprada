@@ -16,8 +16,8 @@ export default class Sun {
         this.timeline = this.experience.timeline
 
         this.parameters = {
-            position: new THREE.Vector3(0, 0, 0),
-            scale: new THREE.Vector3(0, 0, 0),
+            position: new THREE.Vector3(0, 3, 0),
+            scale: new THREE.Vector3(1, 1, 1),
             width: 0.4,
             height: 0.4,
         }
@@ -40,7 +40,7 @@ export default class Sun {
             //wireframe: true,
             //side: THREE.DoubleSide,
             depthWrite: false,
-            depthTest: true,
+            depthTest: false,
             //vertexColors: true,
             //transparent: true,
             blending: THREE.AdditiveBlending ,
@@ -56,6 +56,7 @@ export default class Sun {
         this.sun = new THREE.Mesh( this.geometry, this.material );
         this.sun.position.copy(this.parameters.position);
         this.sun.scale.copy(this.parameters.scale);
+        this.sun.renderOrder = 6;
 
         this.scene.add(this.sun);
     }
@@ -83,13 +84,13 @@ export default class Sun {
         if(this.debug.active)
         {
             this.debugFolder = this.debug.ui.addFolder('Sun')
-            this.debugFolder.add(this.sun.position, 'x').min(-10).max(10).step(0.1).name('position x')
-            this.debugFolder.add(this.sun.position, 'y').min(-10).max(10).step(0.1).name('position y')
-            this.debugFolder.add(this.sun.position, 'z').min(-10).max(10).step(0.1).name('position z')
+            this.debugFolder.add(this.sun.position, 'x').min(-50).max(50).step(0.1).name('position x')
+            this.debugFolder.add(this.sun.position, 'y').min(-50).max(50).step(0.1).name('position y')
+            this.debugFolder.add(this.sun.position, 'z').min(-50).max(50).step(0.1).name('position z')
 
-            this.debugFolder.add(this.sun.scale, 'x').min(-20).max(20).step(0.1).name('scale x')
-            this.debugFolder.add(this.sun.scale, 'y').min(-20).max(20).step(0.1).name('scale y')
-            this.debugFolder.add(this.sun.scale, 'z').min(-20).max(20).step(0.1).name('scale z')
+            this.debugFolder.add(this.sun.scale, 'x').min(-50).max(50).step(0.1).name('scale x')
+            this.debugFolder.add(this.sun.scale, 'y').min(-50).max(50).step(0.1).name('scale y')
+            this.debugFolder.add(this.sun.scale, 'z').min(-50).max(50).step(0.1).name('scale z')
         }
     }
 }
