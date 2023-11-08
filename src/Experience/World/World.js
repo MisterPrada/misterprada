@@ -42,7 +42,7 @@ export default class World
                 //this.text = new Text()
                 //this.hellPortal = new HellPortal()
                 this.book = new Book()
-                this.cat = new Cat()
+                //this.cat = new Cat()
                 //this.sun = new Sun()
                 this.water = new Water()
                 this.environment = new Environment()

@@ -1,6 +1,7 @@
 import * as THREE from 'three'
 import { random, range, clamp } from '../Utils/Functions.js'
 import Experience from '../Experience.js'
+import gsap from "gsap";
 
 
 export default class Clouds {
@@ -28,7 +29,7 @@ export default class Clouds {
 
         this.items = [];
 
-        for (let i = 0; i < 100; i++) {
+        for (let i = 0; i < 300; i++) {
             const material = new THREE.MeshBasicMaterial({
                 fog: true,
                 map,
@@ -43,8 +44,8 @@ export default class Clouds {
             const scale = random(1, 4);
 
             mesh.scale.set(scale + Math.random() * 8, scale, scale);
-            mesh.position.x = random(-70, 70);
-            mesh.position.y = random(2, 2);
+            mesh.position.x = random(-80, 80);
+            mesh.position.y = random(2, 6);
             mesh.position.z = random(-80, 0);
             // mesh.rotation.z = Math.random() * Math.PI * 2;
             mesh.speed = random(0.1, 0.5);
@@ -54,7 +55,9 @@ export default class Clouds {
 
             mesh.r = random(-1, 1);
             this.items.push(mesh);
+
             this.scene.add(mesh);
+
         }
     }
 
@@ -75,7 +78,7 @@ export default class Clouds {
                     // console.log(o);
                 }
 
-                mesh.material.opacity = clamp(o, 0, 1) * mesh.material.opacityy;
+                mesh.material.opacity = (o, 0, 1) * mesh.material.opacityy;
                 // mesh.material.opacity = 1;
 
                 if (mesh.position.z > 0)

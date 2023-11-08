@@ -35,7 +35,7 @@ export default class Pier {
         this.group.position.z += 6
         this.group2.position.z += 6
 
-        this.scene.add(this.group)
+        //this.scene.add(this.group)
         this.scene.add(this.group2)
 
         const normal =  this.resources.items.pierNormalTexture

@@ -20,5 +20,5 @@ void main()
 
     // Final color
     vec3 color = mix(vec3(0.0), vColor, strength);
-    gl_FragColor = vec4(color, smoothstep(0.0, 5.0, vDistanceToCenter) );
+    gl_FragColor = vec4(color, smoothstep(0.0, 4.0, vDistanceToCenter) );
 }

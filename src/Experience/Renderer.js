@@ -70,9 +70,9 @@ export default class Renderer
         // Bloom pass
         this.postProcess.unrealBloomPass = new UnrealBloomPass(
             new THREE.Vector2(this.sizes.width, this.sizes.height),
-            2.0527,
+            0.7527,
             0.0,
-            0.957
+            0.967
         )
         this.postProcess.unrealBloomPass.enabled = true
 

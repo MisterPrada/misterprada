@@ -59,6 +59,7 @@ export default class FireFlies {
             transparent: true,
             blending: THREE.AdditiveBlending,
             depthWrite: false,
+            fog: false
             //depthTest: false,
         })
 
@@ -85,9 +86,9 @@ export default class FireFlies {
 
         for(let i = 0; i < firefliesCount; i++)
         {
-            positionArray[i * 3 + 0] = (Math.random() - 0.5) * 4
+            positionArray[i * 3 + 0] = (Math.random() - 0.5) * 3.5
             positionArray[i * 3 + 1] = Math.random() * 3
-            positionArray[i * 3 + 2] = (Math.random() - 0.5) * 30
+            positionArray[i * 3 + 2] = (Math.random() - 0.5) * 20
 
             scaleArray[i] = Math.random()
         }
@@ -101,7 +102,7 @@ export default class FireFlies {
             uniforms:
                 {
                     uPixelRatio: { value: Math.min(window.devicePixelRatio, 2) },
-                    uSize: { value: 150 },
+                    uSize: { value: 120 },
                     uTime: { value: 0 },
                 },
             vertexShader: firefliesVertexShader,
@@ -109,6 +110,7 @@ export default class FireFlies {
             transparent: true,
             blending: THREE.AdditiveBlending,
             depthWrite: false,
+            fog: false
             //depthTest: false,
         })
 
@@ -117,7 +119,7 @@ export default class FireFlies {
 
         fireflies.renderOrder = 8
         fireflies.position.y = 1
-        fireflies.position.z = 16
+        fireflies.position.z = 29
         fireflies.position.x = 0
         this.scene.add(fireflies)
     }
@@ -158,6 +160,7 @@ export default class FireFlies {
             transparent: true,
             blending: THREE.AdditiveBlending,
             depthWrite: false,
+            fog: false
             //depthTest: false,
         })
 
@@ -178,9 +181,9 @@ export default class FireFlies {
     }
 
     update() {
-        this.firefliesMaterial.uniforms.uTime.value = this.time.elapsed * 0.1
-        this.firefliesCenterMaterial.uniforms.uTime.value = this.time.elapsed * 0.1
-        this.firefliesRightMaterial.uniforms.uTime.value = this.time.elapsed * 0.1
+        this.firefliesMaterial.uniforms.uTime.value = this.time.elapsed * 2
+        this.firefliesCenterMaterial.uniforms.uTime.value = this.time.elapsed * 2
+        this.firefliesRightMaterial.uniforms.uTime.value = this.time.elapsed * 2
     }
 
     setDebug() {

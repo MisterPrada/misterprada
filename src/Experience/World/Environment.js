@@ -28,10 +28,15 @@ export default class Environment
     {
         // add point light for book
         const pointLight = new THREE.PointLight(0xffffff, 10.5);
-        //pointLight.position.set(0, 2.7, 33);
         pointLight.position.set(-14.5, 2, 21.5);
         pointLight.castShadow = false;
         this.scene.add(pointLight)
+
+        const pointLightMountains = new THREE.PointLight(0xffffff, 1500.5);
+        //pointLightMountains.position.set(0, 2.7, 33);
+        pointLightMountains.position.set(0, 20, -80);
+        pointLightMountains.castShadow = false;
+        this.scene.add(pointLightMountains)
 
 
         // add point light for pier
@@ -125,7 +130,7 @@ export default class Environment
 
     setFog()
     {
-        this.scene.fog = new THREE.FogExp2('#7facd9', 0.023);
+        this.scene.fog = new THREE.FogExp2('#7facd9', 0.013);
     }
 
     setSunLight()

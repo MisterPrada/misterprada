@@ -99,7 +99,7 @@ export default class Mountains {
             	#include <envmap_vertex>
             	#include <shadowmap_vertex>
             	#include <fog_vertex>
-              float height = texture2D(heightMap, uv).z;
+              float height = texture2D(heightMap, uv).z * 1.2;
               vHeight = height;
               transformed.z += height * 15.;
               gl_Position = projectionMatrix * viewMatrix * modelMatrix * vec4(transformed,1.0);
@@ -200,10 +200,13 @@ export default class Mountains {
         this.material.uniforms.normalMap.value = normal;
         this.material.uniforms.normalMap.value.needsUpdate = true;
 
-        this.plane = new THREE.Mesh(new THREE.PlaneGeometry(200, 100, 100, 100), this.material);
+        this.plane = new THREE.Mesh(new THREE.PlaneGeometry(280, 100, 280, 100), this.material);
         this.plane.position.z = -99;
         this.plane.position.y = -1;
+        this.plane.position.x = -25;
         this.plane.rotation.x = -Math.PI / 2;
+        this.plane.rotation.x += 0.25;
+        //this.plane.rotation.z -= 0.2;
         this.plane.renderOrder = 3;
 
         this.scene.add(this.plane);
@@ -211,9 +214,9 @@ export default class Mountains {
         this.moon = new THREE.Mesh(new THREE.SphereGeometry(4.3, 36, 36), new THREE.MeshBasicMaterial({
             fog: false,
         }));
-        this.moon.position.x = 90;
+        this.moon.position.x = 60;
         this.moon.position.z = -60;
-        this.moon.position.y = 10;
+        this.moon.position.y = 16;
         this.moon.renderOrder = 6;
         this.scene.add(this.moon);
     }

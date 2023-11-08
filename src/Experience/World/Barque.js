@@ -23,6 +23,7 @@ export default class Barque {
     setModel() {
         this.resource = this.resources.items.barqueModel
 
+
         this.group = new THREE.Group();
         this.group.position.y = 2;
         this.group.position.z = 35;
@@ -37,6 +38,7 @@ export default class Barque {
         {
             if (child instanceof THREE.Mesh)
             {
+                console.log(child)
                 child.material = new THREE.MeshPhongMaterial();
                 child.scale.set(-scale, scale, -scale);
                 child.material.map = texture;
