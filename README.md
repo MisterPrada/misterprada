@@ -140,6 +140,10 @@
 </p>
 
 <p align="center">
+  ☕ &nbsp; For a cup of coffee &nbsp; BTC -> bc1qz7c86el6w2c77cltgn2vrv9h7yxj3z3atujde5
+</p>
+
+<p align="center">
 🔱 &nbsp;Pet Projects &nbsp;
 </p>
 
