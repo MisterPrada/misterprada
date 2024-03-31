@@ -148,25 +148,28 @@
 </p>
 
 <div align="center">
-  
-| <img alt="Black Hole" src="https://github.com/MisterPrada/misterprada/assets/8146111/21b58241-42f2-4b8c-8a58-2669d552fc45"  /> | <img alt="Sun Particles" src="https://github.com/MisterPrada/misterprada/assets/8146111/5ef71bc1-8810-4c0d-bd73-d354640e38d9"  /> |
-|:-----:|:------:|
-| <a href="https://blackhole.misterprada.com">Black Hole Live</a> / <a href="https://github.com/MisterPrada/black-hole">Code</a> | <a href="https://sun.misterprada.com">Sun Particles Live</a> / <a href="https://github.com/MisterPrada/FBO-Core">Code</a> |
+
+| <img alt="SoftBody" src="https://github.com/MisterPrada/misterprada/assets/8146111/bb9c9bc7-7430-4e95-a177-a38342b1b85b"  /> |
+|:-----:|
+| <a href="https://e2.misterprada.com/">SoftBody Live</a> / <a href="https://github.com/MisterPrada/softbody-letter">Code</a> |
 
 </div>
 
 <div align="center">
   
-| <img alt="Morph Particles" src="https://github.com/MisterPrada/misterprada/assets/8146111/460b6e93-fb3d-417d-be59-2f37c273f4c9"  /> |
-|:-----:|
-| <a href="https://christmas.misterprada.com">Morph Particles Live</a> / <a href="https://github.com/MisterPrada/morph-particles">Code</a> |
+| <img alt="Morph Particles" src="https://github.com/MisterPrada/misterprada/assets/8146111/460b6e93-fb3d-417d-be59-2f37c273f4c9"  /> | <img alt="Black Hole" src="https://github.com/MisterPrada/misterprada/assets/8146111/21b58241-42f2-4b8c-8a58-2669d552fc45"  /> | <img width="77%" alt="Sun Particles" src="https://github.com/MisterPrada/misterprada/assets/8146111/5ef71bc1-8810-4c0d-bd73-d354640e38d9"  /> |
+|:-----:|:------:|:-----:|
+| <a href="https://christmas.misterprada.com">Morph Particles Live</a> / <a href="https://github.com/MisterPrada/morph-particles">Code</a> | <a href="https://blackhole.misterprada.com">Black Hole Live</a> / <a href="https://github.com/MisterPrada/black-hole">Code</a> | <a href="https://sun.misterprada.com">Sun Particles Live</a> / <a href="https://github.com/MisterPrada/FBO-Core">Code</a> |
 
 </div>
+
+<div align="center">
 
 | <img alt="Portal" src="https://github.com/MisterPrada/misterprada/assets/8146111/eb445650-c662-412f-8cf5-662b76c27057"  /> | <img alt="Galaxy" src="https://github.com/MisterPrada/misterprada/assets/8146111/64cf718c-e1ae-44a6-bd6c-69ca2b55ac11"  /> | <img alt="Itachi" src="https://github.com/MisterPrada/misterprada/assets/8146111/445f5d11-b672-46f5-a0dd-7635b4787efc"  /> |
 |:-----:|:---------:|:------:|
 | <a href="https://portal.misterprada.com">Portal Live</a> / <a href="https://github.com/MisterPrada/portal">Code</a> |  <a href="https://misterprada.com">Galaxy Live</a> / <a href="https://github.com/MisterPrada/misterprada">Code</a>    | <a href="https://itachi.misterprada.com">Itachi Live</a> / <a href="https://github.com/MisterPrada/itachi">Code</a> |
 
+</div>
 
 <div align="center">
 
