@@ -148,14 +148,6 @@
 </p>
 
 <div align="center">
-
-| <img alt="SoftBody" src="https://github.com/MisterPrada/misterprada/assets/8146111/bb9c9bc7-7430-4e95-a177-a38342b1b85b"  /> |
-|:-----:|
-| <a href="https://e2.misterprada.com/">SoftBody Live</a> / <a href="https://github.com/MisterPrada/softbody-letter">Code</a> |
-
-</div>
-
-<div align="center">
   
 | <img alt="Morph Particles" src="https://github.com/MisterPrada/misterprada/assets/8146111/460b6e93-fb3d-417d-be59-2f37c273f4c9"  /> | <img width="77%" alt="Black Hole" src="https://github.com/MisterPrada/misterprada/assets/8146111/21b58241-42f2-4b8c-8a58-2669d552fc45"  /> | <img width="77%" alt="Sun Particles" src="https://github.com/MisterPrada/misterprada/assets/8146111/5ef71bc1-8810-4c0d-bd73-d354640e38d9"  /> |
 |:-----:|:------:|:-----:|
