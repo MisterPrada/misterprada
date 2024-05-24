@@ -129,6 +129,11 @@
 [![CentOs](https://img.shields.io/badge/-CentOs-05122A?style=flat&logo=Centos&logoColor=A8B9CC)](#)&nbsp;
 [![Debian](https://img.shields.io/badge/-Debian-05122A?style=flat&logo=Debian&logoColor=A8B9CC)](#)&nbsp;
 
+#### &nbsp; 🎥 3D Engine/Core
+
+[![Blender](https://img.shields.io/badge/-Blender-05122A?style=flat&logo=Blender&logoColor=A8B9CC)](#)&nbsp;
+[![Unity](https://img.shields.io/badge/-Unity-05122A?style=flat&logo=Unity&logoColor=A8B9CC)](#)&nbsp;
+
 <p align="center">
 🏆 &nbsp;Achivements &nbsp;
 </p>
