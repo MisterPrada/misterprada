@@ -11,6 +11,8 @@
 💡 &nbsp; I'm really fond of developing entertaining stuff for online games on PC.\
 🎓 &nbsp;In addition, I do reverse engineering of applications for Windows.\
 💬 &nbsp;Feel free to reach out for advice or just for some fun discussion.\
+✅ &nbsp;The most important qualities of a programmer are modesty, curiosity, professional honesty, creativity and discipline, as well as "enlightened laziness".\
+😈 &nbsp;Obsessed with development.\
 ✉️ &nbsp;Click on one of the links down below to connect me! I'll respond ASAP.
 
 <p align="center">
@@ -18,6 +20,11 @@
 <a href="https://t.me/misterprada"><img src="https://img.shields.io/badge/-@misterprada-1769FF?style=flat&logo=Telegram&logoColor=white"/></a>
 <a href="https://www.instagram.com/mister666prada/"><img src="https://img.shields.io/badge/-@mister666prada-orange?style=flat&logo=Instagram&logoColor=white"/></a>
 </p>
+
+### 🔥 &nbsp;Main Stack (Expert)
+[![PHP](https://img.shields.io/badge/-PHP-05122A?style=flat&logo=php&logoColor=A8B9CC)](#)&nbsp;
+[![js](https://img.shields.io/badge/-Js-05122A?style=flat&logo=javascript&logoColor=A8B9CC)](#)&nbsp;
+[![ThreeJs](https://img.shields.io/badge/-ThreeJs-05122A?style=flat&logo=three.js&logoColor=A8B9CC)](#)&nbsp;
 
 ### 🛠 &nbsp;Tech Experience Stack
 
@@ -133,6 +140,7 @@
 
 [![Blender](https://img.shields.io/badge/-Blender-05122A?style=flat&logo=Blender&logoColor=A8B9CC)](#)&nbsp;
 [![Unity](https://img.shields.io/badge/-Unity-05122A?style=flat&logo=Unity&logoColor=A8B9CC)](#)&nbsp;
+[![UnrealEngine](https://img.shields.io/badge/-UnrealEngine-05122A?style=flat&logo=UnrealEngine&logoColor=A8B9CC)](#)&nbsp;
 
 <p align="center">
 🏆 &nbsp;Achivements &nbsp;
