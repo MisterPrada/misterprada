@@ -22,13 +22,13 @@ varying vec2 vUv;
 
 #define S _ (abs(p.x + sin(p.y*1.5))+pow(abs(p.y)*.3, 8.))
 #define M   h(t.yz)
-#define I _ J
+#define I _ J ;p.x +=3.2 POINT
 #define T _ min(TJ, min(20., l(vec2(p.y-1.3, p.x + 2.0), t.yz)))
 
 
-#define E _ min(EJ, min(20., l(vec2(p.y-2.0, p.x + 2.5), t.wz))) _ min(EJ2, min(20., l(vec2(p.y, p.x + 5.4), t.wz))) _ min(EJ3, min(20., l(vec2(p.y+2.0, p.x + 8.4), t.wz)))
+#define E _ min(EJ, min(20., l(vec2(p.y-2.0, p.x + 2.5), t.wz))) _ min(EJ2, min(20., l(vec2(p.y, p.x + 5.4), t.wz))) _ min(EJ3, min(20., l(vec2(p.y+2.0, p.x + 8.4), t.wz))); p.x -= 1.0
 
-#define R _ min(RJ, min(20., l(vec2(-p.x-6.7, abs(p.y - 0.9) + 0.8), t.zz))) _ min(EJ3, min(20., l(vec2(-p.x-10.1, p.y + 1.7 + 0.1), sqrt(t.zz) )))
+#define R _ min(RJ2, min(20., l(vec2(-p.x-7.7, abs(p.y - 0.9) + 0.8), t.zz))) _ min(EJ3, min(20., l(vec2(-p.x-11.1, p.y + 1.6 + 0.1), sqrt(t.zz) )))
 
 
 #define P _ min(RJ, min(20., l(vec2(sqrt(-p.x-6.7), abs(p.y - 0.9) + 0.8), t.zz)))
@@ -47,7 +47,7 @@ varying vec2 vUv;
 #define A3 _ min(AJ3, min(20., l(vec2(p.y, p.x + 19.8), t.wz)))
 
 #define DJ  l(abs(p+t.yx * vec2(19.6)), t.xz)
-#define D _ min(DJ, min(20., l(vec2(-p.x-17.7, abs(p.y - 0.1)), t.zz)))
+#define D _ min(DJ, min(20., l(vec2(-p.x-17.7, abs(p.y - 0.1)), t.zz))) ;p.x += 7.0
 
 
 #define Al4(p,a) length(p-a+a*clamp(dot(a-p,a)/dot(a,a), 0.0, 1.0))
@@ -60,8 +60,9 @@ varying vec2 vUv;
 #define AJ6      l(33333.1, vec2(0.0, 0.0))
 #define A6 _ min(AJ3, min(20., l(vec2(p.y, p.x + 25.8), t.wz)))
 
-#define POINT _ min(AJ3, min(20., l(vec2(p.y - 3.7, p.x + 53.0), t.ww)))
+#define A ;p.x -= 6.5 _ min(EJ3, min(20., l(vec2(p.x + 20.1, p.y + 2.0), sinh(t.yz + 0.1) ))) _ min(EJ3, min(20., l(vec2(-p.x-20.5, p.y + 2.0), sinh(t.yz + 0.1) ))) _ min(AJ3, min(20., l(vec2(p.y, p.x + 25.8), t.wz))) ;p.x += 6.0
 
+#define POINT _ min(AJ3, min(20., l(vec2(p.y - 3.7, p.x - 1.2), t.ww)))
 
 void main()
 {
@@ -76,9 +77,14 @@ void main()
     vec4 t = vec4(0,1,2,0); p.x += 16.5; gl_FragColor *= 0.;
 
 
-    M I S T E R P R3 R4 A1 A2 A3 D A4 A5 A6 POINT;
+    /* 🔱🔱🔱 */
 
-    //gl_FragColor.a = step(0.19, gl_FragColor.r);
+    M I S T E R  P R A D A;
+
+    /* 🔱🔱🔱 */
 
     gl_FragColor.a = smoothstep(0.3, 0.7, mix(0.0, 2.0, gl_FragColor.r * uOpacity));
+
+    // set White color
+    gl_FragColor.rgb = mix(vec3(0.0), vec3(1.0), gl_FragColor.r * uOpacity);
 }
