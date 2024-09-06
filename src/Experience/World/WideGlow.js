@@ -46,7 +46,6 @@ export default class WideGlow extends Model {
         plane.position.set( 0, 0, 0 )
         plane.scale.set( 20, 5, 20 )
         this.container.add( plane )
-        this.scene.add( this.container )
     }
 
     resize() {

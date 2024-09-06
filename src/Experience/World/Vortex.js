@@ -71,9 +71,6 @@ export default class Vortex extends Model {
         } )
 
         this.circleModel.material = vortexMaterial
-
-        this.container.add( this.circleModel )
-        this.scene.add( this.container )
     }
 
     resize() {

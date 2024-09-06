@@ -3,6 +3,15 @@ uniform sampler2D tMap;
 varying vec2 vUv;
 varying float vAngle;
 
+// rotate x
+mat3 rotationX(float angle) {
+    return mat3(
+        1.0, 0.0, 0.0,
+        0.0, cos(angle), -sin(angle),
+        0.0, sin(angle), cos(angle)
+    );
+}
+
 void main() {
     vec3 pos = position;
 
@@ -22,6 +31,9 @@ void main() {
     + cameraUpWorld * st.y * billboardSize;
 
     pos = vertexPosition;
+
+    pos = rotationX(0.1) * pos;
+
 
     gl_Position = projectionMatrix * modelViewMatrix * vec4(pos, 1.0);
     vUv = uv;

@@ -66,7 +66,6 @@ export default class Clouds_3 extends Model {
         const mesh = new THREE.Mesh( geometry, material )
 
         this.container.add( mesh )
-        this.scene.add( this.container )
     }
 
     resize() {

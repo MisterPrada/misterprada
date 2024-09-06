@@ -54,7 +54,6 @@ export default class Points_3 extends Model {
 
 
         this.container.add( mesh )
-        this.scene.add( this.container )
     }
 
     resize() {

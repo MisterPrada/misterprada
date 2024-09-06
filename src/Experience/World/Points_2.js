@@ -53,7 +53,6 @@ export default class Points_2 extends Model {
         const mesh = new THREE.Points( this.pointsModel.geometry, material )
 
         this.container.add( mesh )
-        this.scene.add( this.container )
     }
 
     resize() {

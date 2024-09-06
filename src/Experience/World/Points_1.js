@@ -28,7 +28,7 @@ export default class Points_1 extends Model {
         this.setDebug()
     }
 
-    async setModel() {
+    setModel() {
         this.source = this.resources.items.points1Model
         this.pointsModel = this.source.scene.children[0]
 
@@ -53,7 +53,6 @@ export default class Points_1 extends Model {
         const mesh = new THREE.Points( this.pointsModel.geometry, material )
 
         this.container.add( mesh )
-        this.scene.add( this.container )
     }
 
     resize() {

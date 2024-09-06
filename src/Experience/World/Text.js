@@ -39,7 +39,7 @@ export default class Text {
         } );
 
         this.text = new THREE.Mesh( this.geometry, this.material );
-        this.text.position.copy(new THREE.Vector3(0, -1, 0));
+        this.text.position.copy(new THREE.Vector3(-0.05, -1, 0));
         this.text.scale.copy(new THREE.Vector3(0.4, 0.4, 0.4));
         this.scene.add(this.text);
     }

@@ -19,6 +19,15 @@ vec2 rotate(vec2 v, float a) {
     return m * v;
 }
 
+// rotate x
+mat3 rotationX(float angle) {
+    return mat3(
+    1.0, 0.0, 0.0,
+    0.0, cos(angle), -sin(angle),
+    0.0, sin(angle), cos(angle)
+    );
+}
+
 void main() {
     float time = uTime;
     vec3 pos = position;
