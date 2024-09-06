@@ -19,16 +19,10 @@ export default class Text {
             opacity: 0.0
         }
 
-        //this.experience.resources.items.sunColorTexture.encoding = THREE.sRGBEncoding
-        this.experience.resources.items.sunColorTexture.colorSpace = THREE.SRGBColorSpace
-        //this.experience.resources.items.sunColorTexture.repeat.set(1.5, 1.5)
-        this.experience.resources.items.sunColorTexture.wrapS = THREE.RepeatWrapping
-        this.experience.resources.items.sunColorTexture.wrapT = THREE.RepeatWrapping
-
         this.geometry = new THREE.PlaneGeometry( 5, 5, 128, 128 );
         this.material = new THREE.ShaderMaterial( {
             //wireframe: true,
-            //side: THREE.DoubleSide,
+            side: THREE.DoubleSide,
             depthWrite: false,
             depthTest: true,
             //vertexColors: true,
@@ -45,16 +39,25 @@ export default class Text {
         } );
 
         this.text = new THREE.Mesh( this.geometry, this.material );
-        this.text.position.y = -2;
+        this.text.position.copy(new THREE.Vector3(0, -1, 0));
+        this.text.scale.copy(new THREE.Vector3(0.4, 0.4, 0.4));
         this.scene.add(this.text);
     }
 
-    animateTextPosition() {
-        this.timeline.to(this.material.uniforms.uOpacity, {
-            duration: 3,
-            value: 1,
-            ease: "power1.inOut",
-        });
+    animateTextShow() {
+        this.timeline.add(
+            gsap.to(this.material.uniforms.uOpacity, {
+                duration: 3,
+                delay: 2,
+                value: 1,
+                ease: "power1.inOut",
+            }),
+            "start"
+        )
+    }
+
+    resize() {
+
     }
 
     update() {

@@ -1,42 +1,69 @@
 export default [
     // {
-    //     name: 'environmentMapTexture',
-    //     type: 'cubeTexture',
-    //     path:
-    //     [
-    //         'textures/environmentMap/px.png',
-    //         'textures/environmentMap/nx.png',
-    //         'textures/environmentMap/py.png',
-    //         'textures/environmentMap/ny.png',
-    //         'textures/environmentMap/pz.png',
-    //         'textures/environmentMap/nz.png'
-    //     ]
+    //     name: 'backgroundSound',
+    //     type: 'audio',
+    //     path: '/sounds/background.mp3'
     // },
     {
-        name: 'environmentMapTexture',
-        type: 'texture',
-        path: 'textures/environmentMap/hdri.png'
+        name: 'circleModel',
+        type: 'gltfModel',
+        path: '/models/circle.glb'
     },
-    // {
-    //     name: 'textFont',
-    //     type: 'font',
-    //     path: 'fonts/helvetiker_regular.typeface.json'
-    // },
     {
-        name: 'sunColorTexture',
-        type: 'texture',
-        path: 'textures/sun/organic.jpg'
+        name: 'points1Model',
+        type: 'gltfModel',
+        path: '/models/points_1.glb'
     },
-    // {
-    //     name: 'textColorTexture',
-    //     type: 'texture',
-    //     path: 'textures/matcaps/8.png'
-    // },
+    {
+        name: 'points2Model',
+        type: 'gltfModel',
+        path: '/models/points_2.glb'
+    },
+    {
+        name: 'points3Model',
+        type: 'gltfModel',
+        path: '/models/points_3.glb'
+    },
 
+    {
+        name: 'clouds1Attribute',
+        type: 'json',
+        path: '/attributes/clouds_1.json'
+    },
+    {
+        name: 'clouds2Attribute',
+        type: 'json',
+        path: '/attributes/clouds_2.json'
+    },
+    {
+        name: 'clouds3Attribute',
+        type: 'json',
+        path: '/attributes/clouds_3.json'
+    },
 
-    // {
-    //     name: 'foxModel',
-    //     type: 'gltfModel',
-    //     path: 'models/Fox/glTF/Fox.gltf'
-    // }
+    {
+        name: 'uvTexture',
+        type: 'texture',
+        path: '/textures/uv.png'
+    },
+    {
+        name: 'noiseTexture',
+        type: 'texture',
+        path: '/textures/noise.png'
+    },
+    {
+        name: 'nebula1Texture',
+        type: 'texture',
+        path: '/textures/nebula1.jpg'
+    },
+    {
+        name: 'nebula2Texture',
+        type: 'texture',
+        path: '/textures/nebula2.jpg'
+    },
+    {
+        name: 'displacementTexture',
+        type: 'texture',
+        path: '/textures/displacement.jpg'
+    }
 ]

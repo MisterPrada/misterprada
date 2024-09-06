@@ -1,3 +1,4 @@
+import './preloader.js'
 
 import Experience from './Experience/Experience.js'
 
