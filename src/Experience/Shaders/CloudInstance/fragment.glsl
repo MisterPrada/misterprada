@@ -8,13 +8,6 @@ varying vec2 vUv;
 varying vec3 vColor;
 varying float vAngle;
 
-vec2 rotate(vec2 v, float a) {
-    float s = sin(a);
-    float c = cos(a);
-    mat2 m = mat2(c, -s, s, c);
-    return m * v;
-}
-
 void main() {
     vec2 uv = vUv;
     vec3 color = texture2D(tMap, vUv).rgb;

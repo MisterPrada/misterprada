@@ -31,8 +31,7 @@ void main() {
     + cameraUpWorld * st.y * billboardSize;
 
     pos = vertexPosition;
-
-    pos = rotationX(0.1) * pos;
+    pos = rotationX(0.3) * pos;
 
 
     gl_Position = projectionMatrix * modelViewMatrix * vec4(pos, 1.0);

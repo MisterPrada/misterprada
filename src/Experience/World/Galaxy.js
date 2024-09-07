@@ -57,20 +57,20 @@ export default class Galaxy extends Model {
         )
 
         this.container.position.y += 0.5
-        this.container.rotateX( 0.1 )
+        this.container.rotateX( 0.3 )
 
         this.scene.add( this.container )
     }
 
     resize() {
-        this.vortex.resize()
-        this.clouds_1.resize()
-        this.clouds_2.resize()
-        this.clouds_3.resize()
-        this.points_1.resize()
-        this.points_2.resize()
-        this.points_3.resize()
-        this.wideGlow.resize()
+        this.vortex?.resize()
+        this.clouds_1?.resize()
+        this.clouds_2?.resize()
+        this.clouds_3?.resize()
+        this.points_1?.resize()
+        this.points_2?.resize()
+        this.points_3?.resize()
+        this.wideGlow?.resize()
     }
 
     setDebug() {
