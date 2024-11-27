@@ -7,7 +7,7 @@
 <img width="40%" alt="Night Coding" src="https://github.com/MisterPrada/misterprada/assets/8146111/91fec7b5-937a-43cc-8a90-4f468f157bc5" align="right"/>
 
 
-🌠&nbsp; Work as a Tech Lead Software Engineer ([EgorovAgency](https://egorovagency.com/))\
+🌠&nbsp; Work as a Tech Lead Software Engineer \
 💡 &nbsp; I'm really fond of developing entertaining stuff for online games on PC.\
 🎓 &nbsp;In addition, I do reverse engineering of applications for Windows.\
 💬 &nbsp;Feel free to reach out for advice or just for some fun discussion.\
