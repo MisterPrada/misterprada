@@ -16,6 +16,7 @@
 ✉️ &nbsp;Click on one of the links down below to connect me! I'll respond ASAP.
 
 <p align="center">
+<a href="https://x.com/Mister_Prada"><img src="https://img.shields.io/badge/-@mister666prada-gray?style=flat&logo=X&logoColor=white"/></a>
 <a href="https://discordapp.com/users/240546940901785610"><img src="https://img.shields.io/badge/-@misterprada-5562ea?style=flat&logo=Discord&logoColor=white"/></a>
 <a href="https://t.me/misterprada"><img src="https://img.shields.io/badge/-@misterprada-1769FF?style=flat&logo=Telegram&logoColor=white"/></a>
 <a href="https://www.instagram.com/mister666prada/"><img src="https://img.shields.io/badge/-@mister666prada-orange?style=flat&logo=Instagram&logoColor=white"/></a>
