@@ -116,6 +116,7 @@
 [![Vue](https://img.shields.io/badge/-Vue-05122A?style=flat&logo=vue.js&logoColor=A8B9CC)](#)&nbsp;
 [![Nuxt](https://img.shields.io/badge/-Nuxt-05122A?style=flat&logo=Nuxt.js&logoColor=A8B9CC)](#)&nbsp;
 [![ThreeJs](https://img.shields.io/badge/-ThreeJs-05122A?style=flat&logo=three.js&logoColor=A8B9CC)](#)&nbsp;
+[![TSL](https://img.shields.io/badge/-TSL-05122A?style=flat&logo=three.js&logoColor=A8B9CC)](#)&nbsp;
 [![R3F](https://img.shields.io/badge/-R3F-05122A?style=flat&logo=react-three-fiber&logoColor=A8B9CC)](#)&nbsp;
 [![AFrame](https://img.shields.io/badge/-AFrame-05122A?style=flat&logo=aframe&logoColor=A8B9CC)](#)&nbsp;
 [![Locomotive Scroll](https://img.shields.io/badge/-Locomotive_Scroll-05122A?style=flat&logo=Locomotivescroll&logoColor=A8B9CC)](#)&nbsp;
