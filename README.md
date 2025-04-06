@@ -164,9 +164,11 @@
 
 <div align="center">
 
-| <img alt="Auroras" width="70%" src="https://github.com/user-attachments/assets/cfd352b2-49b1-4bba-ac77-e120213b0716"  /> | <img alt="Chain with LightBulb" width="100%" src="https://github.com/user-attachments/assets/aef2af78-8e28-46ea-905e-4dbabb55a629"  /> | 
-|:-----:|:-----:|
-| <a href="https://www.shadertoy.com/view/XcffRj">Auroras</a> / <a href="https://www.shadertoy.com/view/XcffRj">Code</a> | <a href="http://rope.misterprada.com/">Chain with LightBulb</a> / <a href="https://github.com/MisterPrada/rope">Code</a> |
+
+
+| <img alt="Image to Particles" width="100%" src="https://github.com/user-attachments/assets/59c1c4ce-5922-4051-ab96-4603101868ea"  /> | <img alt="Auroras" width="70%" src="https://github.com/user-attachments/assets/cfd352b2-49b1-4bba-ac77-e120213b0716"  /> | <img alt="Chain with LightBulb" width="100%" src="https://github.com/user-attachments/assets/aef2af78-8e28-46ea-905e-4dbabb55a629"  /> |
+|:-----:|:-----:|:-----:|
+| <a href="https://logo.misterprada.com/">Image to Particles</a> / <a href="https://github.com/MisterPrada/logo-particles-template">Code</a> | <a href="https://www.shadertoy.com/view/XcffRj">Auroras</a> / <a href="https://www.shadertoy.com/view/XcffRj">Code</a> | <a href="http://rope.misterprada.com/">Chain with LightBulb</a> / <a href="https://github.com/MisterPrada/rope">Code</a> |
 
 </div>
 
