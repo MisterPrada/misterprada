@@ -164,15 +164,19 @@
 
 <div align="center">
 
+| <img alt="Vortex in a Glass Sphere" width="100%" src="https://github.com/user-attachments/assets/90100c97-84f5-4c0b-baae-f50ecac2c4a3"  /> | <img alt="God Grass" width="100%" src="https://github.com/user-attachments/assets/69e309a7-7f5a-44a9-b0fd-4754cf6d494a"  /> |
+|:-----:|:-----:|
+| <a href="https://tympanus.net/Tutorials/VortexGlassSphere/">Vortex in a Glass Sphere</a> / <a href="https://github.com/MisterPrada/vortex-glass-sphere">Code</a> | <a href="https://grass.misterprada.com/">God Grass</a> / <a href="https://github.com/MisterPrada/grass">Code</a> |
 
+</div>
+
+<div align="center">
 
 | <img alt="Image to Particles" width="100%" src="https://github.com/user-attachments/assets/59c1c4ce-5922-4051-ab96-4603101868ea"  /> | <img alt="Auroras" width="70%" src="https://github.com/user-attachments/assets/cfd352b2-49b1-4bba-ac77-e120213b0716"  /> | <img alt="Chain with LightBulb" width="100%" src="https://github.com/user-attachments/assets/aef2af78-8e28-46ea-905e-4dbabb55a629"  /> |
 |:-----:|:-----:|:-----:|
 | <a href="https://logo.misterprada.com/">Image to Particles</a> / <a href="https://github.com/MisterPrada/logo-particles-template">Code</a> | <a href="https://www.shadertoy.com/view/XcffRj">Auroras</a> / <a href="https://www.shadertoy.com/view/XcffRj">Code</a> | <a href="http://rope.misterprada.com/">Chain with LightBulb</a> / <a href="https://github.com/MisterPrada/rope">Code</a> |
 
 </div>
-
-<div align="center">
 
 <div align="center">
   
