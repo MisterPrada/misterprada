@@ -8,7 +8,7 @@
 
 
 🌠&nbsp; Work as a Tech Lead Software Engineer \
-💡 &nbsp; I'm really fond of developing entertaining stuff for online games on PC.\
+💡 &nbsp;I'm really fond of developing entertaining stuff for online games on PC.\
 🎓 &nbsp;In addition, I do reverse engineering of applications for Windows.\
 💬 &nbsp;Feel free to reach out for advice or just for some fun discussion.\
 ✅ &nbsp;The most important qualities of a programmer are modesty, curiosity, professional honesty, creativity and discipline, as well as "enlightened laziness".\
